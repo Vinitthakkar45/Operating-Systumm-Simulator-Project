@@ -1,0 +1,121 @@
+body {
+    font-family: cursive, Verdana , Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png') ;
+    background-size: cover;
+}
+
+header {
+    background-color: #CEE6F2;
+    color: #2F3C7E;
+    text-align: center;
+    padding: 20px 0;
+    border:1px solid #2a377a;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4063c1;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+
+form button:hover {
+    background-color: #001d4a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#statistics {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gantt-chart {
+    max-width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+.gantt-block-inner {
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #000;
+    padding: 2px 5px 2px 5px;
+    background-color:#4063c1;
+    color: #fff;
+    font-weight: bold;
+}
+ 
+.gantt-block-time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gantt-block-time-first {
+    display: flex;
+    justify-content: space-between;
+}
+

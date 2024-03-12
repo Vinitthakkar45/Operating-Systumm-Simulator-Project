@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priority Scheduling Simulator</title>
+    <link rel="stylesheet" href="./style2.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Preemptive Priority Scheduling Algorithm Simulator</h1>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form id="process-form">
+            <label for="process-name">Process Name:</label>
+            <input type="text" id="process-name" required />
+
+            <label for="burst-time">Burst Time:</label>
+            <input type="number" id="burst-time" required />
+
+            <label for="arrival-time">Arrival Time:</label>
+            <input type="number" id="arrival-time" required />
+
+            <label for="priority">Priority (0-10):</label>
+            <input type="number" id="priority" min="0" max="10" required />
+
+            <br>
+            <button type="submit">Add Process</button>
+            <br>
+        </form>
+
+        <table id="process-table">
+            <thead>
+                <tr>
+                    <th>Process Name</th>
+                    <th>Burst Time</th>
+                    <th>Arrival Time</th>
+                    <th>Priority</th>
+                    <th>Finish Time</th>
+                    <th>Turnaround Time</th>
+                    <th>Waiting Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <!-- Process rows will be dynamically added here  -->
+            </tbody>
+        </table>
+
+        <div id="statistics">
+            <p>Average Turnaround Time: <span id="avg-turnaround-time">0</span> </p>
+            <p>Average Waiting Time: <span id="avg-waiting-time">0</span> </p>
+        </div>
+
+        <div id="gantt-chart">
+             <!-- Gantt chart will be dynamically generated here  -->
+        </div>
+    </div>
+
+    <script src="./priority.js"></script>
+
+</body>
+
+</html>

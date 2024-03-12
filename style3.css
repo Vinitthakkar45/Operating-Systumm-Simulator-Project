@@ -1,0 +1,23 @@
+body {
+    font-family: cursive, Verdana , Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png') ;
+    background-size: cover;
+}
+
+header {
+    background-color: #CEE6F2;
+    color: #2F3C7E;
+    text-align: center;
+    padding: 20px 0;
+    border:1px solid #2a377a;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 35px;
+}
