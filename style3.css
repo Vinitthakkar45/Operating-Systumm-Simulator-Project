@@ -1,8 +1,8 @@
 body {
-    font-family: cursive, Verdana , Arial, sans-serif;
+    font-family: cursive, Verdana, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('bg.png') ;
+    background-image: url('bg.png');
     background-size: cover;
 }
 
@@ -11,8 +11,8 @@ header {
     color: #2F3C7E;
     text-align: center;
     padding: 20px 0;
-    border:1px solid #2a377a;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #2a377a;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     margin-bottom: 40px;
 }
@@ -20,4 +20,59 @@ header {
 nav h1 {
     margin: 0;
     font-size: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.containerout {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+#file, #readers, #writers {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    margin: 0 10px;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+#file-content {
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4063c1;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #001d4a;
 }
