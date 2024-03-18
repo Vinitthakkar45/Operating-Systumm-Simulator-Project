@@ -1,0 +1,93 @@
+body {
+    font-family: cursive, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-size: cover;
+}
+
+header {
+    background-color: #CEE6F2;
+    color: #2F3C7E;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #2a377a;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px; 
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+form input {
+    margin: 7px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4063c1;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #001d4a;
+}
+
+#algorithm_details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#alg_name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#alg_seek {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#graph_area {
+    max-width: 90%;
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

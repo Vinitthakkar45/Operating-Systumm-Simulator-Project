@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCFS Disk Scheduling</title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>FCFS Disk Scheduling Algorithm</h1>
+    </header>
+    <div class="container">
+        <form id="inputForm">
+            <label for="traceInput">Enter sequence of cylinders:</label>
+            <input type="text" id="traceInput" name="traceInput" placeholder="e.g., 98 183 37 122">
+            <br>
+            <label for="initialInput">Enter initial cylinder position:</label>
+            <input type="number" id="initialInput" name="initialInput" placeholder="e.g., 53">
+            <br>
+            <button type="button" onclick="runAlgorithm()">Run Algorithm</button>
+        </form>
+        <div id="graph_area"></div>
+        <div id="algorithm_details">
+            <p id="alg_name"></p>
+            <p id="alg_seek"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="disk.js"></script>
+</body>
+</html>
