@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRU Page Replacement Simulation</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <h1>LRU Page Replacement Algorithm</h1>
+    </header>
+
+    <div class="container">
+        <p>Cache (3)</p>
+        <div id="cache" class="cache-container"></div>
+        <span>Enter sequence of Data : </span>
+        <input type="text" id="input" placeholder="i.e. Text , Number ">
+        <button onclick="addToCache()">Add to Cache</button>
+        <div id="stats">Hit ratio: 0%, Miss ratio: 0%</div>
+    </div>
+    <script src="LRU.js"></script>
+</body>
+</html>
